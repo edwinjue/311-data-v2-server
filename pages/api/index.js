@@ -1,14 +1,13 @@
 const app = require('express')();
 const { v4 } = require('uuid');
-const Cors = require('cors');
-const { runMiddleware } = require('@utils/index');
+const { cors } = require('../../middleware/index');
+const { runMiddleware } = require('../../utils/index');
+const geojsonController = require('../../controllers/geojson');
 
-// Initializing the cors middleware
-// You can read more about the available options here: https://github.com/expressjs/cors#configuration-options
-const cors = Cors({
-  methods: ['POST', 'GET', 'HEAD'],
-});
+/** ************** Main Code ******************* */
+app.get('/geojson/geocode', geojsonController.geocode);
 
+/** ************** Example Code ******************* */
 // API examples
 app.get('/api', (req, res) => {
   const path = `/api/item/${v4()}`;
