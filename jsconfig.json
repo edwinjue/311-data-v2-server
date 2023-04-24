@@ -1,5 +1,4 @@
 {
-  "$schema": "https://json.schemastore.org/jsconfig",
   "compilerOptions": {
     // specifies the module system to use (default: commonjs)
     "module": "commonjs",
