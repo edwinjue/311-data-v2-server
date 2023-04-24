@@ -9,8 +9,8 @@ export default function Index() {
       <br />
       <ol>
         <li>
-          <a href="/geojson/geocode?latitude=34.051511&longitude=-118.251459">
-            /geojson/geocode?latitude=34.051511&longitude=-118.251459
+          <a href="/api/geojson/geocode?latitude=34.051511&longitude=-118.251459">
+            /api/geojson/geocode?latitude=34.051511&longitude=-118.251459
           </a>
         </li>
       </ol>

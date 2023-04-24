@@ -5,7 +5,7 @@ const { runMiddleware } = require('../../utils/index');
 const geojsonController = require('../../controllers/geojson');
 
 /** ************** Main Code ******************* */
-app.get('/geojson/geocode', geojsonController.geocode);
+app.get('/api/geojson/geocode', geojsonController.geocode);
 
 /** ************** Example Code ******************* */
 // API examples
