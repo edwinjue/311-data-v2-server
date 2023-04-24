@@ -1,6 +1,6 @@
 const app = require('express')();
 const { v4 } = require('uuid');
-const { runMiddleware } = require('@/utils/index');
+const { runMiddleware } = require('@utils/index');
 const { cors } = require('../../middleware/index');
 const geojsonController = require('../../controllers/geojson');
 
