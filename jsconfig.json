@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/jsconfig",
+  "compilerOptions": {
+    // specifies the module system to use (default: commonjs)
+    "module": "commonjs",
+    // specifies the ECMAScript version that the project shold be compiled to (default es3)
+    "target": "es6",
+    // Using "baseUrl" allows you to use absolute paths
+    "baseUrl": ".",
+    // Using "paths" allows you to configure module path aliases
+    "paths": {
+      "@root/*": ["."],
+      "@utils/*": ["./utils/*"]
+    }
+  },
+  "include": ["**/*.js", "**/*.jsx"],
+  "exclude": ["node_modules"]
+}
