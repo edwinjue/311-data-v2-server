@@ -6,20 +6,20 @@ const Cors = require('cors');
 // You can read more about the available options here: https://github.com/expressjs/cors#configuration-options
 const cors = Cors({
   methods: ['POST', 'GET', 'HEAD'],
-})
+});
 
 // Helper method to wait for a middleware to execute before continuing
 // And to throw an error when an error happens in a middleware
-function runMiddleware(req, res) {
+async function runMiddleware(req, res, fn) {
   return new Promise((resolve, reject) => {
-    (req, res, (result) => {
+    fn(req, res, (result) => {
       if (result instanceof Error) {
-        return reject(result)
+        return reject(result);
       }
 
-      return resolve(result)
-    })
-  })
+      return resolve(result);
+    });
+  });
 }
 
 // API examples
@@ -38,10 +38,10 @@ app.get('/api/item/:slug', (req, res) => {
 // CORS example
 app.get('/api/cors', async (req,res)=>{
   // Run the middleware
-  await runMiddleware(req, res, cors)
+  await runMiddleware(req, res, cors);
 
   // Rest of the API logic
-  res.json({ message: 'Hello Everyone!' })
+  res.json({ message: 'Hello Everyone!' });
 })
 
 module.exports = app;
