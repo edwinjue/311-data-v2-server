@@ -1,5 +1,6 @@
 const app = require('express')();
 const { v4 } = require('uuid');
+const Cors = require('cors');
 
 // Initializing the cors middleware
 // You can read more about the available options here: https://github.com/expressjs/cors#configuration-options

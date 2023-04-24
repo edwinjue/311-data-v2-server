@@ -2,7 +2,6 @@ export default function Index() {
   return (
     <>
       <p>311-data-v2 API Server at your service!</p><br/>
-      <br/>
       Try these endpoints:<br/>
       <ol>
         <li>
