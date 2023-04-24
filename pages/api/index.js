@@ -35,7 +35,7 @@ app.get('/api/item/:slug', (req, res) => {
 });
 
 // CORS example
-app.get('/cors', async (req,res)=>{
+app.get('/api/cors', async (req,res)=>{
   // Run the middleware
   await runMiddleware(req, res, cors)
 
