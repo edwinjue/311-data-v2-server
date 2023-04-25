@@ -8,7 +8,8 @@
     "baseUrl": ".",
     // Using "paths" allows you to configure module path aliases
     "paths": {
-      "@utils/*": ["utils/*"]
+      "@root/*": ["./*"],
+      "@utils/*": ["./utils/*"]
     }
   },
   "include": ["**/*.js", "**/*.jsx"],
