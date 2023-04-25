@@ -1,23 +1,15 @@
 # 311-data-v2-server
-The Server/API backend portion of the [311-Data v2 Project](https://github.com/edwinjue/311-data-v2)
+The Server/API portion of the [311-Data v2 Project](https://github.com/edwinjue/311-data-v2)
 
 ## Project Technology
-
-### [Frontend](https://github.com/edwinjue/311-data-v2)
-* Javascript (React)
-* Redux
-* Material-UI 4.x
-* Vercel Deployment
-
-### [Server/API](https://github.com/edwinjue/311-data-v2-server)
+### Server/API
 * Node.js
 * Express.js
 * MongoDb (Atlas)
 * Vercel Serverless API
 * Vercel Deployment
 
-
-[See here](client/README.md) for more information about 311 Data client technology.
+[See here](https://github.com/edwinjue/311-data-v2) for more information about 311 Data client technology.
 
 ## Resources
 Public data used in this project:
