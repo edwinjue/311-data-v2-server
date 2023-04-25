@@ -9,22 +9,13 @@ The Server/API portion of the [311-Data v2 Project](https://github.com/edwinjue/
 * Vercel Serverless API
 * Vercel Deployment
 
-[See here](https://github.com/edwinjue/311-data-v2) for more information about 311 Data client technology.
+[See here](docs/v2-server.md) for more information about 311 Data project server technology.
 
 ## Resources
 Public data used in this project:
 * [MyLA311 Service Request Data 2023](https://data.lacity.org/City-Infrastructure-Service-Requests/MyLA311-Service-Request-Data-2023/4a4x-mna2)
 
 The source code for this project is based on the original 311-Data [v2-aws](https://github.com/hackforla/311-data/releases/tag/v2-aws) release
-
-
-## How does this serverless API work?
-vercel.json: The code here adds one rewrite to push all traffic to our index.js
-{
-  "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }]
-}
-
-For additional information refer to Vercel's documentation [Serverless Functions](https://vercel.com/docs/concepts/functions/serverless-functions). 
 
 ## Under Construction (to be implemented)
 This server's API uses Serverless Functions to handle these API endpoints:
