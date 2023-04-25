@@ -1,5 +1,5 @@
 # 311-data-v2-server
-The Server/API backend portion of the [311-Data v2 Project](https://github.com/edwinjue/311-data-v2)
+The Server/API portion of the [311-Data v2 Project](https://github.com/edwinjue/311-data-v2)
 
 ## Project Technology
 
