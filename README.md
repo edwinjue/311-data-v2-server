@@ -6,7 +6,7 @@ The Server/API portion of the [311-Data v2 Project](https://github.com/edwinjue/
 * Node.js
 * Express.js
 * MongoDb (Atlas)
-* Vercel Serverless API
+* [Vercel Serverless API](https://vercel.com/docs/concepts/functions/serverless-functions)
 * Vercel Deployment
 
 [See here](docs/v2-server.md) for more information about 311 Data project server technology.
