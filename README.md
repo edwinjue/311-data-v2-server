@@ -1,7 +1,7 @@
 # 311-data-v2-server
 The Server/API portion of the [311-Data v2 Project](https://github.com/edwinjue/311-data-v2)
 
-Demo: https://vercel.com/edwinjue/311-data-v2-server/FiRJebMxLYGk6kdAg683yyqd9fnG
+Demo: https://311-data-v2-server-jfjkr179g-edwinjue.vercel.app/
 
 ## Project Technology
 ### Server/API
@@ -9,7 +9,8 @@ Demo: https://vercel.com/edwinjue/311-data-v2-server/FiRJebMxLYGk6kdAg683yyqd9fn
 * Express.js
 * MongoDb (Atlas)
 * [Vercel Serverless API](https://vercel.com/docs/concepts/functions/serverless-functions)
-* Vercel Deployment
+* [Vercel Deployment](https://vercel.com/edwinjue/311-data-v2-server/FiRJebMxLYGk6kdAg683yyqd9fnG
+)
 
 [See here](docs/v2-server.md) for more information about 311 Data project server technology.
 
