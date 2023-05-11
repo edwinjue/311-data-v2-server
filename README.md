@@ -1,7 +1,7 @@
 # 311-data-v2-server
 The Server/API portion of the [311-Data v2 Project](https://github.com/edwinjue/311-data-v2)
 
-Live v2 server: https://vercel.com/edwinjue/311-data-v2-server/FiRJebMxLYGk6kdAg683yyqd9fnG
+Demo: https://vercel.com/edwinjue/311-data-v2-server/FiRJebMxLYGk6kdAg683yyqd9fnG
 
 ## Project Technology
 ### Server/API
